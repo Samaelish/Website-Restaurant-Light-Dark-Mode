@@ -185,6 +185,10 @@ img{
   font-weight: var(--font-medium);
 }
 
+.nav__logo{
+    transition: color 0.3s ease-in-out;
+}
+
 .nav__logo:hover{
   color: var(--first-color);
 }
@@ -242,6 +246,9 @@ img{
   color: var(--body-color);
 }
 
+.scrolltop:hover .scrolltop__icon{
+    color:white;
+}
 /* Show scrolltop */
 .show-scroll{
   visibility: visible;
@@ -441,6 +448,7 @@ img{
   display: inline-block;
   color: var(--text-color);
   margin-bottom: var(--mb-1);
+  transition: color 0.3s ease;
 }
 
 .footer__link:hover{
@@ -452,6 +460,19 @@ img{
   font-size: var(--small-font-size);
   color: var(--text-color-light);
   margin-top: 3.5rem;
+}
+
+/* Social media icon effects */
+.bxl-facebook,
+.bxl-instagram,
+.bxl-twitter{
+    transition: color 0.3s ease-in-out;
+}
+
+.bxl-facebook:hover,
+.bxl-instagram:hover,
+.bxl-twitter:hover{
+    color: var(--first-color);
 }
 
 /*========== MEDIA QUERIES ==========*/
